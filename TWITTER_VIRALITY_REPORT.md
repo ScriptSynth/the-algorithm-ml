@@ -4,7 +4,7 @@
 
 This comprehensive report analyzes Twitter's open-source machine learning algorithm repository to understand exactly how tweets and accounts are ranked on the platform. Based on this analysis, we provide actionable recommendations for maximizing your Twitter account's reach and increasing the likelihood of going viral.
 
-**Key Finding**: Twitter uses a sophisticated multi-stage ranking system that evaluates hundreds of features to predict user engagement and scores tweets accordingly. The "Heavy Ranker" model assigns weights to different engagement types, with reply engagement by the author being the most valuable (75x weight) and reports being the most harmful (-369x weight).
+**Key Finding**: Twitter uses a sophisticated multi-stage ranking system that evaluates over 1000 features to predict user engagement and scores tweets accordingly. The "Heavy Ranker" model assigns weights to different engagement types, with reply engagement by the author being the most valuable (+75.0 weight) and reports being the most harmful (-369.0 weight).
 
 ---
 
@@ -95,10 +95,10 @@ Here are the exact weights Twitter uses (as of the algorithm's release):
 
 ### Critical Insights
 
-1. **Replies are KING**: Getting replies is worth **27x more** than getting likes
-2. **Author Engagement**: When you reply to others and they engage back, it's the most valuable signal (75x)
-3. **Conversation Quality**: Clicks that lead to sustained engagement (2+ min) are extremely valuable
-4. **Negative Signals**: Reports are catastrophic (-369x) and negative feedback is very harmful (-74x)
+1. **Replies are KING**: Getting replies is worth **27x more** than getting likes (based on weight ratios: 13.5 vs 0.5)
+2. **Author Engagement**: When you reply to others and they engage back, it's the most valuable signal (+75.0 weight)
+3. **Conversation Quality**: Clicks that lead to sustained engagement (2+ min) are extremely valuable (+10.0 to +12.0 weights)
+4. **Negative Signals**: Reports are catastrophic (-369.0 weight) and negative feedback is very harmful (-74.0 weight)
 
 ---
 
@@ -237,7 +237,7 @@ Based on the algorithm analysis, here's your roadmap to Twitter success:
 
 ### Strategy 1: Maximize Reply Engagement (Highest Value)
 
-**Why**: Replies are weighted 27x more than likes and 13.5x more than retweets.
+**Why**: Replies have a weight of 13.5, which is 27x higher than likes (0.5) and 13.5x higher than retweets (1.0).
 
 **How**:
 1. **Ask Questions**: The algorithm specifically tracks `has_question` as a feature

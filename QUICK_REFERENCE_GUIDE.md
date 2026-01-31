@@ -3,16 +3,16 @@
 ## TL;DR - The Most Important Things
 
 ### Top 3 Actions for Immediate Impact
-1. ✅ **Reply to EVERY comment** on your tweets (especially in first hour) - 75x multiplier
-2. ✅ **Ask questions** in your tweets - Replies are worth 27x more than likes
-3. ✅ **Post consistently** at the same times - Real-time aggregates update every 30 minutes
+1. ✅ **Reply to EVERY comment** on your tweets (especially in first hour) - Gets +75.0 weight when author engages
+2. ✅ **Ask questions** in your tweets - Replies have 27x higher weight than likes (13.5 vs 0.5)
+3. ✅ **Get early engagement** - Real-time aggregates update every 30 minutes, so early momentum matters
 
 ---
 
 ## Engagement Weight Cheat Sheet
 
-| What They Do | Value | Strategy |
-|-------------|-------|----------|
+| What They Do | Weight | Strategy |
+|-------------|--------|----------|
 | 💬 Reply + You Engage Back | **+75.0** | ALWAYS reply to replies! |
 | 👤 Click Profile + Engage | **+12.0** | Curate your profile content |
 | 💬 Reply | **+13.5** | Ask questions, create debates |
